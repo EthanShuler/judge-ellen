@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;1,700&display=swap');
 
 * {
     font-family: 'Open Sans',serif;
@@ -8,11 +8,13 @@ body {
     margin: 0;
     padding: 0;
     overflow-x: hidden;
-    
+    position: relative;
+    min-height: 100vh;
 }
 
 .container {
     padding: 30px;
+    padding-bottom: 2.5rem;
 }
 
 .topnav {
@@ -44,7 +46,7 @@ body {
 }
 
 @media screen and (max-width: 600px) {
-    .topnav a:not(:first-child) {display: none;}
+    .topnav a {display: none;}
     .topnav a.icon {
       float: right;
       display: block;
@@ -85,8 +87,32 @@ body {
 
 .footer {
     background-color: lightgray;
+    display: flex;
+    flex-direction: row;
     position:absolute;
     bottom: 0;
-    padding: 3px;
+    height: 6rem;
     width: 100%;
+}
+
+.footer-contact {
+    width: 60%;
+    padding-left: 3rem;
+}
+
+.footer-creator {
+    padding-top: 2rem;
+}
+
+.endorsement-container > h2 {
+    font-weight: bold;
+}
+
+.endorsements {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.endorsements > h4 {
+    width: 10rem;
 }
