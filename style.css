@@ -17,6 +17,10 @@ body {
     padding-bottom: 2.5rem;
 }
 
+.top-banner {
+    display: flex;
+}
+
 .topnav {
     overflow: hidden;
     background-color: white;
@@ -34,7 +38,7 @@ body {
 }
 
 .topnav a:hover:not(.active) {
-    color: coral;
+    color: rgb(63, 128, 63);
   }
 
 .topnav .icon {
@@ -115,4 +119,8 @@ body {
 
 .endorsements > h4 {
     width: 10rem;
+}
+
+.logo {
+    width: 12rem;
 }
