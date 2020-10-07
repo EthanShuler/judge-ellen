@@ -3,21 +3,27 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Judge Ellen Brostrom - Endorsements</title>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body>
     <div class="container">
-        <div class="topnav" id="navbar">
-            <a href="./index.html">Welcome</a>
-            <a href="#Experience">Experience</a>
-            <a href="#" class="active">Endorsements</a>
-            <a href="#Bio">Bio</a>
-            <a href="javascript:void(0);" class="icon" onclick="myFunction()">
-              <i class="fa fa-bars"></i>
-            </a>
+        
+        <div class="top-banner">
+            
+            <div class="topnav" id="navbar">
+                <a href="./index.html"> <img class="logo" src="./logo.svg" alt="Ellen Brostrom logo"> </a>
+                <a href="./index.html" class="navlink">Welcome</a>
+                <a href="./experience.html" class="navlink">Experience</a>
+                <a href="#" class="active navlink">Endorsements</a>
+                <a href="#Bio" class="navlink">Bio</a>
+                <a href="javascript:void(0); class="navlink"" class="icon" onclick="openNav()">
+                <i class="fa fa-bars" class="navlink"></i>
+                </a>
+            </div>
         </div>
+
         <h1 class="title">Endorsements</h1>
         <hr>
         
@@ -89,15 +95,6 @@
         <p class="footer-creator">Created by Ethan Shuler</p>
     </div>
 
-    <script>
-        function myFunction() {
-          var x = document.getElementById("navbar");
-          if (x.className === "topnav") {
-            x.className += " responsive";
-          } else {
-            x.className = "topnav";
-          }
-        }
-        </script>
+    <script src="/script.js"></script>
 </body>
 </html>
