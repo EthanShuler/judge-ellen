@@ -42,7 +42,7 @@ body {
 }
 
 .topnav a:hover:not(.active) {
-    color: rgb(63, 128, 63);
+    color: rgb(0, 169, 157);
   }
 
 .topnav .icon {
@@ -50,7 +50,7 @@ body {
 }
 
 .active {
-    color: cornflowerblue !important;
+    color: rgb(46, 49, 146) !important;
 }
 
 @media screen and (max-width: 600px) {
@@ -94,13 +94,10 @@ body {
     width: 80%;
 }
 
-.image {
-    /* flex-grow: 1; */
-}
-
 .bio {
     padding-left: 2rem;
-    /* flex-grow: ; */
+    padding-top: 0px;
+    margin-top: 0px;
 }
 
 .footer {
@@ -131,7 +128,7 @@ body {
     flex-wrap: wrap;
 }
 
-.endorsements > h4 {
+.endorsements > p {
     width: 10rem;
 }
 
